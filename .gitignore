@@ -1,0 +1,21 @@
+# Virtual environments
+venv/
+.venv/
+
+# Raw data
+data/raw/*
+!data/raw/.gitkeep
+
+# Cleaned data
+data/cleaned/*
+!data/cleaned/.gitkeep
+
+# Binary datasets
+*.pkl
+*.pickle
+*.pkl.gz
+
+# (Optional) Large raw files
+*.txt
+!requirements.txt
+!README.md

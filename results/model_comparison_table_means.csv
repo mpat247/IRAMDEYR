@@ -1,0 +1,13 @@
+Set,Model,Accuracy,Sensitivity,Specificity,PPV,NPV,AUC,F1,F2
+Tier 1 (6 features),LogisticRegression,0.537,0.768,0.507,0.167,0.944,0.696,0.275,0.447
+Tier 1 (6 features),RandomForest,0.66,0.624,0.665,0.194,0.932,0.708,0.296,0.432
+Tier 1 (6 features),LightGBM,0.647,0.638,0.648,0.19,0.933,0.705,0.292,0.433
+Tier 1 (6 features),XGBoost,0.577,0.728,0.558,0.176,0.941,0.707,0.283,0.446
+Tier 2 (10 features),LogisticRegression,0.821,0.914,0.809,0.382,0.986,0.925,0.539,0.715
+Tier 2 (10 features),RandomForest,0.831,0.901,0.823,0.396,0.985,0.927,0.55,0.718
+Tier 2 (10 features),LightGBM,0.843,0.885,0.837,0.413,0.983,0.928,0.563,0.721
+Tier 2 (10 features),XGBoost,0.831,0.906,0.821,0.395,0.985,0.928,0.55,0.72
+Tier 3 (24 features),LogisticRegression,0.831,0.911,0.82,0.396,0.986,0.932,0.552,0.723
+Tier 3 (24 features),RandomForest,0.838,0.899,0.831,0.407,0.985,0.932,0.56,0.724
+Tier 3 (24 features),LightGBM,0.857,0.876,0.855,0.438,0.982,0.934,0.584,0.73
+Tier 3 (24 features),XGBoost,0.831,0.907,0.821,0.396,0.986,0.933,0.551,0.721
